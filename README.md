@@ -1,5 +1,5 @@
 # SWE_2021_41_2024_2_week_6
-## SWE_2021_41_2024_2_week_4
+## Week 4 Assignment
 [week_4](https://github.com/minju0304/SWE_2021_41_2024_2_week4.git)
 <code>
 def isHappy(n):
@@ -33,7 +33,7 @@ __orderd list__ ('-')
 - download the colab notebook
 - find happy num
 ---
-## SWE_2021_41_2024_2_week_5
+## Week5 Assignment
 ><code>
 docker exec <ossp_container> cat /etc/os-release
 </code>
