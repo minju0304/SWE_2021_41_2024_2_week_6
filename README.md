@@ -1,6 +1,7 @@
 # SWE_2021_41_2024_2_week_6
 ## Week 4 Assignment
 [week_4](https://github.com/minju0304/SWE_2021_41_2024_2_week4.git)
+<pre></pre>
 <code>
 def isHappy(n):
   num = n
@@ -29,14 +30,17 @@ def getsum(n):
 n = int(input())
 isHappy(n)
 </code>
+</pre>
 __orderd list__ ('-')
 - download the colab notebook
 - find happy num
 ---
 ## Week5 Assignment
+<pre>
 ><code>
 docker exec <ossp_container> cat /etc/os-release
 </code>
+  </pre>
 *PRETTY_NAME="Ubuntu 24.04.1 LTS"/
 NAME="Ubuntu"/
 VERSION_ID="24.04" ... etc
