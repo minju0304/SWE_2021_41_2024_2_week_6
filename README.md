@@ -35,11 +35,10 @@ isHappy(n)
 ---
 ## Week5 Assignment
 
-><pre>
 >  <code>
 >docker exec <ossp_container> cat /etc/os-release
 ></code>
->  </pre>
+>  
 >- PRETTY_NAME="Ubuntu 24.04.1 LTS"
 >- NAME="Ubuntu"
 >- VERSION_ID="24.04"
