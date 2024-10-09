@@ -37,8 +37,8 @@ isHappy(n)
 ><pre>
 >  <code>
 >docker exec <ossp_container> cat /etc/os-release
-><code>
-> <pre>  
+></code>
+> </pre>  
 >- inspect my container
 >- PRETTY_NAME="Ubuntu 24.04.1 LTS"
 >- NAME="Ubuntu"
@@ -50,7 +50,7 @@ isHappy(n)
 ><pre>
 >  <code>
 >docker exec <ossp_container> git --version
-><code>
+></ossp_container>code>
 > </pre>
 >- confirm my git version
 >- git version 2.43.0
