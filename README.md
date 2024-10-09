@@ -34,10 +34,11 @@ isHappy(n)
 - The code defines a function isHappy(n) that checks if a number is a "happy number," meaning it eventually reaches 1 when repeatedly replacing it with the sum of the squares of its digits. It uses a helper function getsum(n) to calculate the sum of the squares of the digits.
 ---
 ## Week5 Assignment
-
+><pre>
 >  <code>
 >docker exec <ossp_container> cat /etc/os-release
 ></code>
+> </pre>  
 >- inspect my container
 >- PRETTY_NAME="Ubuntu 24.04.1 LTS"
 >- NAME="Ubuntu"
