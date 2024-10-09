@@ -43,25 +43,31 @@ isHappy(n)
 >- NAME="Ubuntu"
 >- VERSION_ID="24.04"
 >- ... etc
----
-><pre>
-  <code>
-docker exec <ossp_container> git --version
-</code>
-  </pre>
-- git version 2.43.0
+
+<br>
 
 ><pre>
-  <code>
-docker exec <ossp_container> python3 --version
-</code>
-  </pre>
-- python3 version 3.12.3
+>  <code>
+>docker exec <ossp_container> git --version
+></code>
+> </pre>
+>- git version 2.43.0
+
+<br>
 
 ><pre>
-  <code>
-docker inspect --format="{{ .HostConfig.Binds }}" ossp-container 
-</code>
-</pre>
-- [/mnt/ossp_host_dir:/mnt/ossp_container_dir]
+>  <code>
+>docker exec <ossp_container> python3 --version
+></code>
+>  </pre>
+>- python3 version 3.12.3
+
+<br>
+
+><pre>
+>  <code>
+>docker inspect --format="{{ .HostConfig.Binds }}" ossp-container 
+></code>
+></pre>
+>- [/mnt/ossp_host_dir:/mnt/ossp_container_dir]
 
