@@ -50,7 +50,7 @@ isHappy(n)
 ><pre>
 >  <code>
 >docker exec <ossp_container> git --version
-></ossp_container>code>
+></code>
 > </pre>
 >- confirm my git version
 >- git version 2.43.0
