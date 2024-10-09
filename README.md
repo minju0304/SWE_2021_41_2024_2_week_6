@@ -1,7 +1,7 @@
 # SWE_2021_41_2024_2_week_6
 ## Week 4 Assignment
 [week_4](https://github.com/minju0304/SWE_2021_41_2024_2_week4.git)
-<pre></pre>
+<pre>
 <code>
 def isHappy(n):
   num = n
