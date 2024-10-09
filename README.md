@@ -34,29 +34,35 @@ isHappy(n)
 - The code defines a function isHappy(n) that checks if a number is a "happy number," meaning it eventually reaches 1 when repeatedly replacing it with the sum of the squares of its digits. It uses a helper function getsum(n) to calculate the sum of the squares of the digits.
 ---
 ## Week5 Assignment
+
 ><pre>
   <code>
 docker exec <ossp_container> cat /etc/os-release
 </code>
   </pre>
-*PRETTY_NAME="Ubuntu 24.04.1 LTS"/
-NAME="Ubuntu"/
-VERSION_ID="24.04" ... etc
+- PRETTY_NAME="Ubuntu 24.04.1 LTS"
+- NAME="Ubuntu"
+- VERSION_ID="24.04"
+- ... etc
+
 ><pre>
   <code>
 docker exec <ossp_container> git --version
 </code>
   </pre>
-*git version 2.43.0
+- git version 2.43.0
+
 ><pre>
   <code>
 docker exec <ossp_container> python3 --version
 </code>
-</ossp_container>pre>
-*python3 version 3.12.3
+  </pre>
+- python3 version 3.12.3
+
 ><pre>
   <code>
-docker inspect --format="(( .HostConfig.Binds }}" ossp-container 
+docker inspect --format="{{ .HostConfig.Binds }}" ossp-container 
 </code>
 </pre>
-*[/mnt/ossp_host_dir:/mnt/ossp_container_dir]
+- [/mnt/ossp_host_dir:/mnt/ossp_container_dir]
+
