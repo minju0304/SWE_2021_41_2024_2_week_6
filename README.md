@@ -38,11 +38,11 @@ isHappy(n)
 >  <code>
 >docker exec <ossp_container> cat /etc/os-release
 ></code>
->  
+>- inspect my container
 >- PRETTY_NAME="Ubuntu 24.04.1 LTS"
 >- NAME="Ubuntu"
 >- VERSION_ID="24.04"
->- ... etc
+>- ... etc 
 
 <br>
 
@@ -51,6 +51,7 @@ isHappy(n)
 >docker exec <ossp_container> git --version
 ></code>
 > </pre>
+>- confirm my git version
 >- git version 2.43.0
 
 <br>
@@ -60,6 +61,7 @@ isHappy(n)
 >docker exec <ossp_container> python3 --version
 ></code>
 >  </pre>
+>- confirm my python3 version
 >- python3 version 3.12.3
 
 <br>
@@ -69,5 +71,6 @@ isHappy(n)
 >docker inspect --format="{{ .HostConfig.Binds }}" ossp-container 
 ></code>
 ></pre>
+>- inspect my container's path
 >- [/mnt/ossp_host_dir:/mnt/ossp_container_dir]
 
